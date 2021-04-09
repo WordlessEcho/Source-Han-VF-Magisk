@@ -12,6 +12,7 @@ usWeightClass of half-width is 390 and 780. But wght is unknown. So this module 
 
 ## Try variable
 [Variable Font Test](https://github.com/WordlessEcho/Variable-Font-Test)
+![App Preview](https://github.com/WordlessEcho/Variable-Font-Test/blob/main/doc/pic/TRIM_20210409_190441.gif?raw=true)
 
 ## Source Han Sans VF download
 [source-han-sans/Variable at release · adobe-fonts/source-han-sans](https://github.com/adobe-fonts/source-han-sans/tree/release/Variable)
