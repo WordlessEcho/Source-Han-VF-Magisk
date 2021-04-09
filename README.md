@@ -6,3 +6,6 @@ Compare to normal super OTC version, only 38.9MB for all weight.
 
 ## wght value
 Search "Weights" in [Source Han Sans README](https://github.com/adobe-fonts/source-han-sans/blob/release/SourceHanSansReadMe.pdf)
+
+## Half-width (Monospace)
+usWeightClass of half-width is 390 and 780. But wght is unknown. So this module currently won't add half-width.
