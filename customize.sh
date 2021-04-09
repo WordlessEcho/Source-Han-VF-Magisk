@@ -4,8 +4,8 @@ FILE=fonts.xml
 FILEPATH=/system/etc/
 FONTPATH=/system/fonts/
 SERIFNAME=SourceHanSerif.ttc
-CHECKSUM=SourceHanSerif.ttc.sha256
-REALSUM=SourceHanSerif.ttc.caculated.sha256
+CHECKSUM=$SERIFNAME.sha256
+REALSUM=$SERIFNAME.caculated.sha256
 
 if [ "$API" -ge "28" ] && [ -f $MIRRORPATH$FILEPATH$FILE ]; then
     ui_print "- Merging SourceHanSerif.ttc"
