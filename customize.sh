@@ -12,7 +12,7 @@ if [ "$API" -ge "28" ] && [ -f $MIRRORPATH$FILEPATH$FILE ]; then
     cat $MODPATH$FONTPATH$SERIFNAME.part* > $MODPATH$FONTPATH$SERIFNAME
     sha256sum $MODPATH$FONTPATH$SERIFNAME | awk '{print $1}' > $MODPATH$FONTPATH$REALSUM
 
-    if ! cmp --silent $MODPATH$FONTPATH$CHECKSUM $MODPATH$FONTPATH$REALSUM; then
+    if ! cmp -s $MODPATH$FONTPATH$CHECKSUM $MODPATH$FONTPATH$REALSUM; then
         abort "! File corrupted. Please re-download this module."
     else
         ui_print "- cleaning cache file"
