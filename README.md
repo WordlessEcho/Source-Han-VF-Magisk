@@ -1,6 +1,8 @@
 # Source Han VF Magisk
 A module replace CJK fonts to Source Han Variable.
 
+Sister module: [Noto-CJK-VF-Magisk](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk)
+
 ## Requirement
 Android 8.0 and above. 9.0 for serif and half-width support.
 
