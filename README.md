@@ -4,23 +4,23 @@ A module replace CJK fonts to Source Han Variable.
 Sister module: [Noto-CJK-VF-Magisk](https://github.com/WordlessEcho/Noto-CJK-VF-Magisk)
 
 ## Requirement
-Android 8.0 and above. 9.0 for serif and half-width support.
+Android 8.0 and above. 9.0 for serif support.
 
 ## Advantage
 Compare to normal super OTC version, only 38.9MB for all weight.
-
-## Half-width (Monospace)
-It adjust **Latin characters** only to half width of the CJK characters.
-
-## Source Han Serif
-Source Han Serif doesn't have variable fonts yet. So this module add super OTC version.
 
 ## Try variable
 [Variable Font Test](https://github.com/WordlessEcho/Variable-Font-Test)
 ![App Preview](https://github.com/WordlessEcho/Variable-Font-Test/blob/main/doc/pic/TRIM_20210409_190441.gif?raw=true)
 
-## Source Han Sans VF download
+## Font
+Both font had been modified with [subset_noto_cjk.py](https://cs.android.com/android/platform/superproject/+/master:external/noto-fonts/cjk/subset_noto_cjk.py). And add chws feature with [kojiishi/east_asian_spacing: OpenType East Asian Contextual Spacing Build Tools](https://github.com/kojiishi/east_asian_spacing).
+
+### Source Han Sans VF download
 [source-han-sans/Variable at release · adobe-fonts/source-han-sans](https://github.com/adobe-fonts/source-han-sans/tree/release/Variable)
+
+### Source Han Serif VF download
+[source-han-serif/Variable at release · adobe-fonts/source-han-sans](https://github.com/adobe-fonts/source-han-serif/tree/release/Variable)
 
 ## wght value
 Tools: [googlefonts/fonttools: A library to manipulate font files from Python.](https://github.com/googlefonts/fonttools)
