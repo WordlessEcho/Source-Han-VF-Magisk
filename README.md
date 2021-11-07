@@ -11,7 +11,7 @@ Compare to normal super OTC version, only 38.9MB for all weight.
 
 ## Try variable
 [Variable Font Test](https://github.com/WordlessEcho/Variable-Font-Test)
-![App Preview](https://github.com/WordlessEcho/Variable-Font-Test/blob/main/doc/pic/TRIM_20210409_190441.gif?raw=true)
+![App Preview](https://github.com/WordlessEcho/Variable-Font-Test/blob/main/doc/pics/variable-font-test-zh-tw.gif?raw=true)
 
 ## Font
 Both font had been modified with [subset_noto_cjk.py](https://cs.android.com/android/platform/superproject/+/master:external/noto-fonts/cjk/subset_noto_cjk.py). And add chws feature with [kojiishi/east_asian_spacing: OpenType East Asian Contextual Spacing Build Tools](https://github.com/kojiishi/east_asian_spacing).
